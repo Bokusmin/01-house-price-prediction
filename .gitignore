@@ -1,0 +1,52 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (usually too large for git)
+data/
+*.csv
+*.xlsx
+*.json
+*.parquet
+
+# Model files (too large for git)
+models/*.pkl
+models/*.h5
+models/*.pth
+models/*.ckpt
+models/*.joblib
+*.pkl
+*.h5
+*.pth
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
